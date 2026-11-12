@@ -12,7 +12,7 @@ Control manual; Google Calendar y Google Meet; Outlook Calendar y Microsoft Team
 
 ## Comportamiento esperado
 
-1. La luz muestra al menos «disponible», «no disponible» y «desconocido» de forma distinguible.
+1. La luz muestra al menos «disponible», «no disponible» y «desconocido» de forma distinguible, sin depender solo del color.
 2. El control manual permite declarar «no disponible» y volver a un estado normal.
 3. Una reunión agendada puede sugerir ocupación, pero no prueba que la llamada esté activa.
 4. Una llamada activa puede existir sin un evento de calendario.
@@ -23,15 +23,14 @@ Control manual; Google Calendar y Google Meet; Outlook Calendar y Microsoft Team
 ## Criterios de aceptación del piloto
 
 - El control manual cambia la señal y permite revertirla.
-- Los estados son legibles desde la distancia de uso prevista.
-- La pérdida de una fuente conectada queda visible en la interfaz o diagnóstico.
+- Otra persona distingue los estados desde la distancia de uso prevista sin recurrir únicamente al color.
+- La pérdida de una fuente conectada queda visible en la interfaz o diagnóstico cuando se incorpore alguna integración.
 - Ningún dato identificable de reuniones se expone en la señal física.
 
-## Fuera de alcance por ahora
+## Fuera de alcance del primer piloto
 
-Autenticación con cuentas, acceso a calendarios, detección automática de llamadas y vínculo con la pantalla central.
+Autenticación con cuentas, acceso a calendarios, detección automática de llamadas y vínculo con la pantalla central. Estas integraciones siguen en la visión del producto y requieren validar capacidades, permisos y privacidad antes de implementarse.
 
 ## Preguntas abiertas
 
-¿Qué significa «disponible» para la persona? ¿Debe un evento ocupado activar la luz automáticamente? ¿Puede detectarse una llamada real con los permisos disponibles? ¿Qué fuente prevalece y durante cuánto tiempo? ¿Quién puede ver el estado?
-
+¿Qué significa «disponible» para la persona? ¿Desde dónde debe leerse la señal? ¿Debe un evento ocupado activar la luz automáticamente? ¿Puede detectarse una llamada real con los permisos disponibles? ¿Qué fuente prevalece y durante cuánto tiempo? ¿Quién puede ver el estado?
