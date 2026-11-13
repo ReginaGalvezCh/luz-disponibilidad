@@ -38,6 +38,18 @@ Which personal and work accounts may be connected; available permissions; reliab
 
 This project is being shared early so its requirements, experiments, and trade-offs can be reviewed as they develop. The pilot specification describes intended behavior, not a validated device. Upcoming measurements and design decisions will be recorded here; GitHub Issues will track bounded next steps. Suggestions and questions are welcome through Issues.
 
+## First development cycle (planned)
+
+The next inspectable artifact is a local, manual-only availability simulator. It can test interaction and localization before a physical device or account integration exists. Work is tracked in small issues:
+
+1. [Validate the viewing scenario and manual states](https://github.com/ReginaGalvezCh/luz-disponibilidad/issues/2).
+2. [Define state transitions and the privacy boundary](https://github.com/ReginaGalvezCh/luz-disponibilidad/issues/3).
+3. [Build and test an accessible English/Spanish simulator](https://github.com/ReginaGalvezCh/luz-disponibilidad/issues/4).
+4. [Exercise external signals with synthetic fixtures](https://github.com/ReginaGalvezCh/luz-disponibilidad/issues/5).
+5. [Assess Google and Microsoft integration feasibility](https://github.com/ReginaGalvezCh/luz-disponibilidad/issues/6).
+
+The simulator will not claim that calendar or active-call detection works with real accounts. Hardware, account permissions, and source precedence remain open decisions.
+
 ## Safety and privacy
 
 Do not publish OAuth credentials, access tokens, work account information, calendar events, meeting titles, participant names, or schedules. Any future demo should use synthetic data and expose only a derived availability state.
