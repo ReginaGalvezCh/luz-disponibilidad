@@ -16,8 +16,8 @@ Initial definition. No device or integrations have been implemented. Google Meet
 
 ## Documents
 
-- [Pilot specification](specs/001-estado-disponibilidad/spec.md).
-- [Shared method and architecture](docs/metodologia.md).
+- [Pilot specification](specs/001-availability-state/spec.md).
+- [Shared method and architecture](docs/method.md).
 - [Program coordination in Notion](https://app.notion.com/p/416504754f0881afaaa6e4297e39c813).
 
 ## Next decisions
