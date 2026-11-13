@@ -4,7 +4,7 @@ An independent project to make it clear when it is a good time to interrupt some
 
 ## Status
 
-Initial definition. No device or integrations have been implemented. Google Meet, Google Calendar, Microsoft Teams, and Outlook are provisional candidate sources based on the user's stated usage.
+Public design and discovery stage. The repository currently contains specifications and a proposed technology map; it does not yet contain firmware, a working device, or account integrations. Google Meet, Google Calendar, Microsoft Teams, and Outlook are provisional candidate sources, not verified integrations.
 
 ## Initial scope
 
@@ -29,8 +29,19 @@ Initial definition. No device or integrations have been implemented. Google Meet
 
 - [Pilot specification](specs/001-availability-state/spec.md).
 - [Shared method and architecture](docs/method.md).
-- [Program coordination in Notion](https://app.notion.com/p/416504754f0881afaaa6e4297e39c813).
 
 ## Next decisions
 
 Which personal and work accounts may be connected; available permissions; reliable active-call signals; source precedence; state duration; physical controls; reading distance; and treatment of private data.
+
+## Follow the work
+
+This project is being shared early so its requirements, experiments, and trade-offs can be reviewed as they develop. The pilot specification describes intended behavior, not a validated device. Upcoming measurements and design decisions will be recorded here; GitHub Issues will track bounded next steps. Suggestions and questions are welcome through Issues.
+
+## Safety and privacy
+
+Do not publish OAuth credentials, access tokens, work account information, calendar events, meeting titles, participant names, or schedules. Any future demo should use synthetic data and expose only a derived availability state.
+
+## License
+
+[MIT](LICENSE) covers the current repository content. Hardware design files, if added later, will have their licensing and manufacturing information reviewed before publication.
