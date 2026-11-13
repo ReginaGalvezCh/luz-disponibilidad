@@ -1,25 +1,25 @@
-# Luz de disponibilidad
+# Availability Light
 
-Proyecto independiente para indicar de forma clara cuándo conviene interrumpir. El primer piloto se controlará manualmente. La visión del producto incluye conectar señales de calendario y de llamadas activas, sujetas a permisos y capacidades que aún deben verificarse.
+An independent project to make it clear when it is a good time to interrupt someone. The first pilot will use manual control. The product vision includes calendar and active-call signals, subject to permissions and capabilities that still need verification.
 
-## Estado
+## Status
 
-Definición inicial. Sin dispositivo ni integraciones implementadas. Google Meet, Google Calendar, Microsoft Teams y Outlook son fuentes candidatas provisionales según el uso indicado por la persona.
+Initial definition. No device or integrations have been implemented. Google Meet, Google Calendar, Microsoft Teams, and Outlook are provisional candidate sources based on the user's stated usage.
 
-## Primer alcance
+## Initial scope
 
-- Mostrar estados distinguibles: disponible, no disponible y desconocido.
-- Permitir control manual y una forma clara de anular o restablecer el estado.
-- Diseñar por separado la ocupación de calendario y la llamada realmente activa.
-- Definir prioridad entre control manual, agenda y señal de reunión antes de implementarla.
-- Evitar que la luz reciba títulos, participantes u otros detalles de reuniones.
+- Show distinguishable available, unavailable, and unknown states.
+- Provide manual control and a clear way to override or reset the state.
+- Design calendar occupancy and active-call detection as separate signals.
+- Define precedence among manual control, calendar, and meeting signals before implementing automation.
+- Keep meeting titles, participants, and other details away from the light.
 
-## Documentos
+## Documents
 
-- [Especificación del piloto](specs/001-estado-disponibilidad/spec.md).
-- [Método y arquitectura compartida](docs/metodologia.md).
-- [Coordinación general en Notion](https://app.notion.com/p/416504754f0881afaaa6e4297e39c813).
+- [Pilot specification](specs/001-estado-disponibilidad/spec.md).
+- [Shared method and architecture](docs/metodologia.md).
+- [Program coordination in Notion](https://app.notion.com/p/416504754f0881afaaa6e4297e39c813).
 
-## Próximas decisiones
+## Next decisions
 
-Qué cuentas personales y laborales se podrán conectar, permisos disponibles, señales reales de llamada activa, prioridad entre fuentes, duración del estado, controles físicos, distancia de lectura y tratamiento de datos privados.
+Which personal and work accounts may be connected; available permissions; reliable active-call signals; source precedence; state duration; physical controls; reading distance; and treatment of private data.
